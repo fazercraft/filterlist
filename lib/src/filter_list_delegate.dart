@@ -102,7 +102,7 @@ class FilterListDelegate<T> extends SearchDelegate<T?> {
 One of the tileLabel or suggestionBuilder is required
             '''),
         super(
-            searchFieldLabel: searchFieldHint ?? "Search here..",
+            searchFieldLabel: searchFieldHint ?? "Procurar...",
             keyboardType: TextInputType.text,
             textInputAction: TextInputAction.search,
             searchFieldStyle: searchFieldStyle,

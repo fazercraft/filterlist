@@ -157,7 +157,7 @@ Create a function and call `FilterListDelegate.open()` on button tap.
       },
       tileLabel: (user) => user!.name,
       emptySearchChild: Center(child: Text('No user found')),
-      searchFieldHint: 'Search Here..',
+      searchFieldHint: 'Procurar...',
       onApplyButtonClick: (list) {
         // Do something with selected list
       },
